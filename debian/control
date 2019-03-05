@@ -1,0 +1,12 @@
+Source: ros-crystal-rqt-topic
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/rqt_topic
+Standards-Version: 3.9.2
+
+Package: ros-crystal-rqt-topic
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-crystal-python-qt-binding (>= 0.2.19), ros-crystal-rqt-gui, ros-crystal-rqt-gui-py, ros-crystal-rqt-py-common, ros-crystal-ros-workspace
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
