@@ -1,3 +1,26 @@
+## rqt_topic (eloquent) - 1.0.0-1
+
+The packages in the `rqt_topic` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent rqt_topic` on `Thu, 03 Oct 2019 22:10:12 -0000`
+
+The `rqt_topic` package was released.
+
+Version of package(s) in repository `rqt_topic`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_topic.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## rqt_topic (dashing) - 1.0.0-1
 
 The packages in the `rqt_topic` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing rqt_topic` on `Thu, 09 May 2019 23:58:30 -0000`
