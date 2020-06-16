@@ -1,0 +1,280 @@
+ros-rolling-rqt-topic (1.1.0-2focal) focal; urgency=high
+
+  * set qos_profile (#14 <https://github.com/ros-visualization/rqt_topic/issues/14>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 13 Nov 2019 05:00:00 -0000
+
+ros-rolling-rqt-topic (1.0.0-2focal) focal; urgency=high
+
+  * removing the spinner from the ros2 port (#11 <https://github.com/ros-visualization/rqt_topic/issues/11>)
+  * Merge pull request #9 <https://github.com/ros-visualization/rqt_topic/issues/9> from ros-visualization/ros2_port
+  * Porting to ROS2
+  * autopep8 (#6 <https://github.com/ros-visualization/rqt_topic/issues/6>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 05 Mar 2019 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.10-2focal) focal; urgency=high
+
+  * fix order by bandwidth column (#4 <https://github.com/ros-visualization/rqt_topic/issues/4>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 16 Nov 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.9-2focal) focal; urgency=high
+
+  * fix section resize toggle with Qt5 (#2 <https://github.com/ros-visualization/rqt_topic/issues/2>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 06 Nov 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Apr 2017 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.7-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 02 Mar 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.6-2focal) focal; urgency=high
+
+  * remove usage of undocumented cStringIO.StringIO len attribute (#434 <https://github.com/ros-visualization/rqt_common_plugins/pull/434>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Feb 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.5-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 03 Feb 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.4-2focal) focal; urgency=high
+
+  * use Python 3 compatible syntax (#421 <https://github.com/ros-visualization/rqt_common_plugins/pull/421>)
+  * catch unhandled exceptions when rosmaster disappears while widget is running (#419 <https://github.com/ros-visualization/rqt_common_plugins/pull/419>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 24 Jan 2017 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.3-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 02 Nov 2016 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 19 Sep 2016 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 16 May 2016 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.0-2focal) focal; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 27 Apr 2016 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.13-2focal) focal; urgency=high
+
+  * check for divide by zero and data failures
+  * Contributors: Aaron Blasdel
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 08 Mar 2016 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.12-2focal) focal; urgency=high
+
+  * Save/Restore of headers added
+  * Contributors: Aaron Blasdel
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 24 Jul 2015 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.11-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 30 Apr 2015 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.10-2focal) focal; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 01 Oct 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.9-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Aug 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 15 Jul 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.7-2focal) focal; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jul 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.6-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 02 Jun 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.5-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 07 May 2014 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.4-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 28 Jan 2014 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.3-2focal) focal; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+  * catch and show exceptions #198 <https://github.com/ros-visualization/rqt_common_plugins/issues/198>
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 08 Jan 2014 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 14 Oct 2013 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.1-2focal) focal; urgency=high
+
+  * improve rqt_topic initialization time (#62 <https://github.com/ros-visualization/rqt_common_plugins/issues/62>)
+  * modified toggling topics to use checkbox instead of context menu (#75 <https://github.com/ros-visualization/rqt_common_plugins/issues/75>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 09 Oct 2013 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.0-2focal) focal; urgency=high
+
+  * fix cleaning old data in rqt_topic (fix #74 <https://github.com/ros-visualization/rqt_common_plugins/issues/74>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 28 Aug 2013 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.17-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 04 Jul 2013 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.16-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 09 Apr 2013 17:33:00 -0000
+
+ros-rolling-rqt-topic (0.2.15-2focal) focal; urgency=high
+
+  * Improve API (now either name or msg type are select-able in order to select which topics to monitor).
+  * API change to accept a list of the topics that this plugin watches.
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 09 Apr 2013 04:02:00 -0000
+
+ros-rolling-rqt-topic (0.2.14-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 14 Mar 2013 04:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.13-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 12 Mar 2013 02:14:00 -0000
+
+ros-rolling-rqt-topic (0.2.12-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 11 Mar 2013 17:56:00 -0000
+
+ros-rolling-rqt-topic (0.2.11-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 08 Mar 2013 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.10-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 22 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.9-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 17 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.7-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Dec 2012 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.6-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Dec 2012 05:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.5-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 22 Dec 2012 00:11:00 -0000
+
+ros-rolling-rqt-topic (0.2.4-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 06:13:00 -0000
+
+ros-rolling-rqt-topic (0.2.3-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 05:24:00 -0000
+
+ros-rolling-rqt-topic (0.2.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 23:29:00 -0000
+
+ros-rolling-rqt-topic (0.2.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 22:47:00 -0000
+
+ros-rolling-rqt-topic (0.2.0-2focal) focal; urgency=high
+
+  * first release of this package into groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 22:39:00 -0000
+
+
