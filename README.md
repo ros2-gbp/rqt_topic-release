@@ -1,3 +1,26 @@
+## rqt_topic (rolling) - 1.2.0-1
+
+The packages in the `rqt_topic` repository were released into the `rolling` distro by running `/home/cottsay/.local/bin/bloom-release rqt_topic -r rolling` on `Fri, 19 Mar 2021 23:17:10 -0000`
+
+The `rqt_topic` package was released.
+
+Version of package(s) in repository `rqt_topic`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_topic.git
+- release repository: https://github.com/ros2-gbp/rqt_topic-release.git
+- rosdistro version: `1.1.0-2`
+- old version: `1.1.0-2`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rqt_topic (foxy) - 1.1.0-1
 
 The packages in the `rqt_topic` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy -t foxy rqt_topic` on `Wed, 06 May 2020 18:05:14 -0000`
