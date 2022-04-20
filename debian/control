@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-topic
+Section: misc
+Priority: optional
+Maintainer: Audrow Nash <audrow@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-flake8 <!nocheck>, ros-humble-ament-xmllint <!nocheck>, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_topic
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-topic
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-humble-python-qt-binding (>= 0.2.19), ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-rqt-py-common, ros-humble-ros-workspace
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
