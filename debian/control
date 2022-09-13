@@ -1,0 +1,12 @@
+Source: ros-galactic-rqt-topic
+Section: misc
+Priority: optional
+Maintainer: Audrow Nash <audrow@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-flake8 <!nocheck>, ros-galactic-ament-xmllint <!nocheck>, ros-galactic-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_topic
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rqt-topic
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-galactic-python-qt-binding (>= 0.2.19), ros-galactic-rqt-gui, ros-galactic-rqt-gui-py, ros-galactic-rqt-py-common, ros-galactic-ros-workspace
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
