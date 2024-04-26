@@ -2,6 +2,9 @@
 Changelog for package rqt_topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.0 (2024-04-26)
+------------------
+
 1.7.2 (2024-03-28)
 ------------------
 * Small fix for modern flake8. (`#50 <https://github.com/ros-visualization/rqt_topic/issues/50>`_)
