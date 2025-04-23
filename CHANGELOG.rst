@@ -2,11 +2,8 @@
 Changelog for package rqt_topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.7.3 (2024-12-09)
+1.8.0 (2024-04-26)
 ------------------
-* Override subscriber qos (backport `#51 <https://github.com/ros-visualization/rqt_topic/issues/51>`_) (`#54 <https://github.com/ros-visualization/rqt_topic/issues/54>`_)
-* Remove CODEOWNERS (backport `#52 <https://github.com/ros-visualization/rqt_topic/issues/52>`_) (`#53 <https://github.com/ros-visualization/rqt_topic/issues/53>`_)
-* Contributors: Alejandro Hernández Cordero, mergify[bot]
 
 1.7.2 (2024-03-28)
 ------------------
