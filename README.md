@@ -1,3 +1,26 @@
+## rqt_topic (kilted) - 1.8.1-1
+
+The packages in the `rqt_topic` repository were released into the `kilted` distro by running `/home/cottsay/infra_ws/install/bloom/bin/bloom-release rqt_topic -r kilted` on `Mon, 12 May 2025 22:51:03 -0000`
+
+The `rqt_topic` package was released.
+
+Version of package(s) in repository `rqt_topic`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_topic.git
+- release repository: https://github.com/ros2-gbp/rqt_topic-release.git
+- rosdistro version: `1.8.0-2`
+- old version: `1.8.0-2`
+- new version: `1.8.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_topic (rolling) - 1.9.0-1
 
 The packages in the `rqt_topic` repository were released into the `rolling` distro by running `/home/cottsay/infra_ws/install/bloom/bin/bloom-release rqt_topic -r rolling` on `Mon, 28 Apr 2025 21:30:50 -0000`
