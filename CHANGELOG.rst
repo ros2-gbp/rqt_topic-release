@@ -2,26 +2,10 @@
 Changelog for package rqt_topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.1 (2025-10-13)
+1.8.2 (2025-10-13)
 ------------------
-* Use choose_qos() from ros2 topic echo (`#55 <https://github.com/ros-visualization/rqt_topic/issues/55>`_)
-* Enable flake8 (`#58 <https://github.com/ros-visualization/rqt_topic/issues/58>`_)
-* Contributors: Alejandro Hernández Cordero, Romain Reignier
-
-2.0.0 (2025-08-18)
-------------------
-* Open source rewrite of rqt_topic (`#47 <https://github.com/ros-visualization/rqt_topic/issues/47>`_)
-  Co-authored-by: Evan Flynn <evan.flynn@apex.ai>
-  Co-authored-by: Alejandro Hernandez Cordero <ahcorde@gmail.com>
-* Contributors: Evan Flynn
-
-1.9.1 (2025-07-30)
-------------------
-* fix setuptools deprecations (`#57 <https://github.com/ros-visualization/rqt_topic/issues/57>`_)
-* Contributors: mosfet80
-
-1.9.0 (2025-04-28)
-------------------
+* fix setuptools deprecations (backport `#57 <https://github.com/ros-visualization/rqt_topic/issues/57>`_) (`#59 <https://github.com/ros-visualization/rqt_topic/issues/59>`_)
+* Contributors: mergify[bot]
 
 1.8.1 (2024-12-06)
 ------------------
