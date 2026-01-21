@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqt-topic
+Section: misc
+Priority: optional
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ament-flake8 <!nocheck>, ros-jazzy-ament-xmllint <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_topic
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqt-topic
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-python-qt-binding (>= 0.2.19), ros-jazzy-rclpy, ros-jazzy-ros2topic, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-rqt-py-common, ros-jazzy-ros-workspace
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
