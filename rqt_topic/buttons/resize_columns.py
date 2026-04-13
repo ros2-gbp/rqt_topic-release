@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-
-# Copyright (c) 2011, Dorian Scholz, TU Darmstadt
+# Copyright 2025 Open Source Robotics Foundation, Inc.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -13,7 +11,7 @@
 #     copyright notice, this list of conditions and the following
 #     disclaimer in the documentation and/or other materials provided
 #     with the distribution.
-#   * Neither the name of the TU Darmstadt nor the names of its
+#   * Neither the name of the Willow Garage, Inc. nor the names of its
 #     contributors may be used to endorse or promote products derived
 #     from this software without specific prior written permission.
 #
@@ -30,30 +28,20 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-from rqt_gui_py.plugin import Plugin
+from packaging.version import Version
+from python_qt_binding import QT_BINDING_VERSION
+if Version(QT_BINDING_VERSION) < Version('6.0.0'):
+    from python_qt_binding.QtWidgets import QAction
+else:
+    from python_qt_binding.QtGui import QAction
 
-from .topic_widget import TopicWidget
 
+class ResizeColumns(QAction):
 
-class Topic(Plugin):
+    def __init__(self, style, name: str = 'Resize columns to contents'):
+        super(ResizeColumns, self).__init__(name)
 
-    def __init__(self, context):
-        super(Topic, self).__init__(context)
-        self.setObjectName('Topic')
+        # Style is provided by the widget that uses this button
+        self.style = style
 
-        self._widget = TopicWidget(context.node, self)
-
-        self._widget.start()
-        if context.serial_number() > 1:
-            self._widget.setWindowTitle(
-                self._widget.windowTitle() + (' (%d)' % context.serial_number()))
-        context.add_widget(self._widget)
-
-    def shutdown_plugin(self):
-        self._widget.shutdown_plugin()
-
-    def save_settings(self, plugin_settings, instance_settings):
-        self._widget.save_settings(plugin_settings, instance_settings)
-
-    def restore_settings(self, plugin_settings, instance_settings):
-        self._widget.restore_settings(plugin_settings, instance_settings)
+        self.setStatusTip('Resize columns to contents')

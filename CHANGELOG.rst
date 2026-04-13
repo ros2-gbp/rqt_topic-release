@@ -2,13 +2,65 @@
 Changelog for package rqt_topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.5.1 (2026-02-13)
+2.1.0 (2026-04-13)
 ------------------
-* fix setuptools deprecations (backport `#57 <https://github.com/ros-visualization/rqt_topic/issues/57>`_) (`#61 <https://github.com/ros-visualization/rqt_topic/issues/61>`_)
-* Contributors: mergify[bot]
+* Support Qt6 (`#67 <https://github.com/ros-visualization/rqt_topic/issues/67>`_)
+* Add Qt6 compatibility (`#66 <https://github.com/ros-visualization/rqt_topic/issues/66>`_)
+* Tweak expected error in test for Pydantic v2 compat (`#65 <https://github.com/ros-visualization/rqt_topic/issues/65>`_)
+* Contributors: Alejandro Hernández Cordero, Scott K Logan, Shane Loretz
 
-1.5.0 (2022-09-13)
+2.0.1 (2025-10-13)
 ------------------
+* Use choose_qos() from ros2 topic echo (`#55 <https://github.com/ros-visualization/rqt_topic/issues/55>`_)
+* Enable flake8 (`#58 <https://github.com/ros-visualization/rqt_topic/issues/58>`_)
+* Contributors: Alejandro Hernández Cordero, Romain Reignier
+
+2.0.0 (2025-08-18)
+------------------
+* Open source rewrite of rqt_topic (`#47 <https://github.com/ros-visualization/rqt_topic/issues/47>`_)
+  Co-authored-by: Evan Flynn <evan.flynn@apex.ai>
+  Co-authored-by: Alejandro Hernandez Cordero <ahcorde@gmail.com>
+* Contributors: Evan Flynn
+
+1.9.1 (2025-07-30)
+------------------
+* fix setuptools deprecations (`#57 <https://github.com/ros-visualization/rqt_topic/issues/57>`_)
+* Contributors: mosfet80
+
+1.9.0 (2025-04-28)
+------------------
+
+1.8.1 (2024-12-06)
+------------------
+* Override subscriber qos (`#51 <https://github.com/ros-visualization/rqt_topic//issues/51>`_)
+* Remove CODEOWNERS (`#52 <https://github.com/ros-visualization/rqt_topic//issues/52>`_)
+* Contributors: Alejandro Hernández Cordero
+
+1.8.0 (2024-04-26)
+------------------
+
+1.7.2 (2024-03-28)
+------------------
+* Small fix for modern flake8. (`#50 <https://github.com/ros-visualization/rqt_topic/issues/50>`_)
+* Contributors: Chris Lalancette
+
+1.7.1 (2024-02-07)
+------------------
+* Add explicit python3-pytest dependency. (`#48 <https://github.com/ros-visualization/rqt_topic/issues/48>`_)
+* Contributors: Chris Lalancette
+
+1.7.0 (2023-04-28)
+------------------
+
+1.6.1 (2023-02-14)
+------------------
+* [rolling] Update maintainers - 2022-11-07 (`#43 <https://github.com/ros-visualization/rqt_topic/issues/43>`_)
+* Contributors: Audrow Nash
+
+1.6.0 (2022-09-13)
+------------------
+* Implement bandwidth monitoring (`#40 <https://github.com/ros-visualization/rqt_topic/issues/40>`_)
+* Contributors: Audrow Nash, Chris Lalancette, Jacob Perron
 
 1.3.0 (2022-05-10)
 ------------------

@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Open Source Robotics Foundation
+# Copyright 2025 Open Source Robotics Foundation, Inc.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -11,7 +11,7 @@
 #     copyright notice, this list of conditions and the following
 #     disclaimer in the documentation and/or other materials provided
 #     with the distribution.
-#   * Neither the name of the TU Darmstadt nor the names of its
+#   * Neither the name of the Willow Garage, Inc. nor the names of its
 #     contributors may be used to endorse or promote products derived
 #     from this software without specific prior written permission.
 #
@@ -28,15 +28,31 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-import sys
 
-from rqt_gui.main import Main
+from packaging.version import Version
+from python_qt_binding import QT_BINDING_VERSION
+from python_qt_binding.QtWidgets import QStyle
+
+if Version(QT_BINDING_VERSION) < Version('6.0.0'):
+    from python_qt_binding.QtWidgets import QAction
+    SP_DialogResetButton = QStyle.SP_DialogResetButton
+else:
+    from python_qt_binding.QtGui import QAction
+    SP_DialogResetButton = QStyle.StandardPixmap.SP_DialogResetButton
+
+from python_qt_binding.QtWidgets import QStyle
 
 
-def main():
-    main = Main()
-    sys.exit(main.main(sys.argv, standalone='rqt_topic.topic.Topic'))
+class Clear(QAction):
 
+    def __init__(self, style, name: str = 'Clear All'):
+        super(Clear, self).__init__(name)
 
-if __name__ == '__main__':
-    main()
+        # Style is provided by the widget that uses this button
+        self.style = style
+
+        self.clear_icon = self.style.standardIcon(SP_DialogResetButton)
+
+        self.setIcon(self.clear_icon)
+        self.setIconText('Clear All')
+        self.setStatusTip('Clear all the views')
