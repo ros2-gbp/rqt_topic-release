@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqt-topic
+Section: misc
+Priority: optional
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pydantic, python3-pytest <!nocheck>, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-xmllint <!nocheck>, ros-lyrical-python-qt-binding (>= 0.2.19), ros-lyrical-rclpy, ros-lyrical-ros2topic, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-rqt-py-common, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_topic
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqt-topic
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-pydantic, ros-lyrical-python-qt-binding (>= 0.2.19), ros-lyrical-rclpy, ros-lyrical-ros2topic, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-rqt-py-common, ros-lyrical-ros-workspace
+Description: rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.
