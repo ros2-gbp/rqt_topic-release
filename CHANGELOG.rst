@@ -2,15 +2,24 @@
 Changelog for package rqt_topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.2 (2026-06-29)
+3.0.3 (2026-09-04)
 ------------------
-* Fixed assert when clicking in a topic (backport `#71 <https://github.com/ros-visualization/rqt_topic/issues/71>`_) (`#72 <https://github.com/ros-visualization/rqt_topic/issues/72>`_)
-* Contributors: mergify[bot]
+* Removed Qt5 support (`#73 <https://github.com/ros-visualization/rqt_topic/issues/73>`_)
+* Removed Qt5 support
+* Contributors: Alejandro Hernandez Cordero, Michael Carroll
 
-2.1.1 (2026-05-15)
+3.0.2 (2026-06-29)
 ------------------
-* Fixed messages are not displayed (backport `#69 <https://github.com/ros-visualization/rqt_topic/issues/69>`_) (`#70 <https://github.com/ros-visualization/rqt_topic/issues/70>`_)
-* Contributors: mergify[bot]
+* Fixed assert when clicking in a topic (`#71 <https://github.com/ros-visualization/rqt_topic/issues/71>`_)
+* Contributors: Alejandro Hernandez Cordero, Michael Carroll
+
+3.0.1 (2026-05-06)
+------------------
+* Fixed messages are not displayed (`#69 <https://github.com/ros-visualization/rqt_topic/issues/69>`_)
+* Contributors: Alejandro Hernández Cordero
+
+3.0.0 (2026-05-06)
+------------------
 
 2.1.0 (2026-04-13)
 ------------------
